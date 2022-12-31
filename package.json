@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "github-calendar": "^2.3.1",
     "scss": "^0.2.4",
-    "vercel": "^28.10.1"
+    "vercel": "^19.1.2"
   }
 }
