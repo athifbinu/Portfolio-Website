@@ -142,6 +142,8 @@ img {
   font-weight: var(--font-semi);
   
 }
+
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -199,6 +201,7 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 
 /*Active menu*/
 .active::after {
@@ -436,175 +439,6 @@ img.man-icons {
   margin-left: auto;
 }
 
-/* ===== FOOTER =====*/
-.footer {
-  background-color: var(--second-color);
-  color: #fff;
-  text-align: center;
-  font-weight: var(--font-semi);
-  padding: 3.5rem 0;
-}
-.footer-title {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-.footer-social {
-  margin-bottom: var(--mb-4);
-}
-.footer-icon {
-  font-size: 1rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
-}
-
-/* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 768px) {
-  body {
-    margin: 0;
-  }
-  .section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-  }
-  .section-title {
-    margin-bottom: var(--mb-6);
-  }
-  .section-title::after {
-    width: 80px;
-    top: 3rem;
-  }
-  .nav {
-    height: calc(var(--header-height) + 1rem);
-  }
-  .nav-list {
-    display: flex;
-    padding-top: 0;
-  }
-  .nav-item {
-    margin-left: var(--mb-6);
-    margin-bottom: 0;
-  }
-  .nav-toggle {
-    display: none;
-  }
-  .nav-link {
-    color: var(--second-color);
-  }
-
-  .home {
-    height: 100vh;
-  }
-  .home-data {
-    align-self: flex-end;
-  }
-  .home-social {
-    padding-top: 0;
-    padding-bottom: 2.5rem;
-    flex-direction: row;
-    align-self: flex-end;
-  }
-  .home-social-icon {
-    margin-bottom: 0;
-    margin-right: var(--mb-4);
-  }
-  .home-img {
-    width: 39%;
-    max-width: 420px;
-    bottom: 15%;
-  }
-  .homeImg{
-    border-radius: 50%; 
-    height: 440px;
-    width: 430px;
-    
-  }
-  .aboutBox{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
-  .aboutTextBox{
-    width: 85%;
-    text-align: center;
-  }
-  .about-container {
-    align-items: center;
-    margin: auto;
-    width: 50%;
-    transition: 0.5s;
-  }
-  .proimg{
-    height: 300px;
-    border-radius: 7px;
-    margin-bottom: 20px;
-  }
-  .skills-container {
-    grid-template-columns: repeat(2, 1fr);
-    text-align: initial;
-  }
-  .about-img img {
-    width: 300px;
-    
-  }
-  .project-container {
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
-    column-gap: 3rem;
-  }
-  .contact-form {
-    width: 360px;
-  }
-  .contact-container {
-    justify-items: center;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .home-img {
-    right: 10%;
-    top: 20%;
-    border-radius: 50%;
-  }
-  .homeImg{
-    border-radius: 50%; 
-    height: 250px;
-    width: 250px;
-
-    
-  }
-  .aboutBox{
-    text-align: center;
-    display: flex;
-    gap: 90px;
-  }
-  .aboutTextBox{
-    width: 85%;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 380px){
-  .homeImg{
-    border-radius: 50%; 
-    height: 250px;
-    width: 430px;
-  }
-  .home-img {
-    right: 10%;
-    top: 70%;
-    border-radius: 50%;
-  }
-  .github{
-    width: 105%;
-    text-align: left;
-  }
-}
-
 
 
 /* servicess */
@@ -652,42 +486,25 @@ img.man-icons {
              
 }
 
-@media screen and (max-width: 768px) {
-   .servicess{
-    display: block;
-    text-align: center;
-    margin: 70px;
-   }
-   .servicess p{
-    width: 190px;
-  }
-  .web-img{
-    width: 150px;
-    height: 150px;
-    margin-left: 14px;
-  }
-  .service-btn{
-    width: 90px;
-    border-radius: 22px;
-    border: none;
-    transition: 0.3s ease;
-    font-size: 14px;
-    height: 35px;
-    background-color:var(--first-color) ;
-    opacity: 0.8;
-    color: black;
-  }
-  .service-btn:hover{
-       
-   opacity: 1;
-   cursor: pointer;
-   background-color: var(--first-color); 
-   box-shadow:0 0 6px var(--first-color),
-             0 0 23px var(--first-color),
-             0 0 65px var(--first-color),
-             0 0 155px var(--first-color);
-  }
 
-   
- 
+
+/* ===== FOOTER =====*/
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 3.5rem 0;
+}
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer-social {
+  margin-bottom: var(--mb-4);
+}
+.footer-icon {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
 }
