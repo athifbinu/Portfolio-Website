@@ -658,5 +658,36 @@ img.man-icons {
     text-align: center;
     margin: 70px;
    }
+   .servicess p{
+    width: 190px;
+  }
+  .web-img{
+    width: 150px;
+    height: 150px;
+    margin-left: 14px;
+  }
+  .service-btn{
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    height: 35px;
+    background-color:var(--first-color) ;
+    opacity: 0.8;
+    color: black;
+  }
+  .service-btn:hover{
+       
+   opacity: 1;
+   cursor: pointer;
+   background-color: var(--first-color); 
+   box-shadow:0 0 6px var(--first-color),
+             0 0 23px var(--first-color),
+             0 0 65px var(--first-color),
+             0 0 155px var(--first-color);
+  }
+
+   
  
 }
