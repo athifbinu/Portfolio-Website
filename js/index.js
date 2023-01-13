@@ -82,4 +82,3 @@ const showMenu = ( toggleId, navId ) => {
   // enable responsive functionality
    GitHubCalendar(".calendar", "Harsha-C2508", { responsive: true });
 
-  /* fully completed */
