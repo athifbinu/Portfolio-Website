@@ -6,6 +6,7 @@
   --font-semi: 600;
 }
 
+
 /*===== Colores =====*/
 :root {
   --first-color: #4070f4;
@@ -443,7 +444,8 @@ img.man-icons {
 
 /* servicess */
 
-.servicess{
+.servicess
+  {
   display: flex;
   margin: 30px;
   gap: 20px;
@@ -451,17 +453,17 @@ img.man-icons {
   text-align: center;
   
 }
-.servicess p{
+.servicess p {
   width: 250px;
 }
 
-.web-img{
+.web-img {
   width: 170px;
   height: 170px;
   margin-left: 40px;
   
 }
-.service-btn{
+.service-btn {
   
   width: 90px;
   border-radius: 22px;
@@ -474,7 +476,8 @@ img.man-icons {
   color: black;
 }
 
-.service-btn:hover {
+.service-btn:hover 
+{
    
   opacity: 1;
   cursor: pointer;
@@ -485,6 +488,44 @@ img.man-icons {
              0 0 155px var(--first-color);
              
 }
+.member{
+  display: flex;
+  margin: 30px;
+  gap:20px;
+  justify-content: center;
+  text-align: center;
+}
+.member p{
+  width: 250px;
+}
+.member img{
+  width: 170px;
+  height: 170px;
+  margin-left: 40px;
+  background: #fff;
+}
+.member-btn{
+  width: 90px;
+  border-radius: 22px;
+  border: none;
+  transition: 0.3s ease;
+  font-size: 14px;
+  height: 35px;
+  background-color:var(--first-color) ;
+  opacity: 0.8;
+  color: black;
+  cursor: pointer;
+}
+.member-btn:hover{
+  opacity: 1;
+
+  background-color: var(--first-color); 
+  box-shadow:0 0 6px var(--first-color),
+             0 0 23px var(--first-color),
+             0 0 65px var(--first-color),
+             0 0 155px var(--first-color);
+}
+
 
 
 

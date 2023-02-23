@@ -1,6 +1,7 @@
 
 
 
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px) {
     body {
@@ -189,5 +190,34 @@
               0 0 155px var(--first-color);
    }
  
+ }
+
+ /* contribution */
+
+ @media screen and (max-width:768px) {
+   .member{
+    display: block;
+    text-align: center;
+    margin: 70px;
+   }
+   .member p{
+    width: 190px;
+   }
+   .member img{
+    width: 170px;
+    height: 170px;
+    margin-left: 2px;
+   }
+   .member-btn{
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    height: 35px;
+    background-color:var(--first-color) ;
+    opacity: 0.8;
+    color: black;
+   }
  }
   
