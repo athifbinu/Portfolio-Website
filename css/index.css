@@ -237,7 +237,7 @@ img {
   color: var(--first-color);
 }
 .home-social {
-  display: flex;
+  
   flex-direction: column;
 }
 .home-social-icon {
@@ -245,6 +245,7 @@ img {
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
+  margin-left: 13px;
 }
 .home-social-icon:hover,
 .footer-icon:hover {
@@ -255,6 +256,7 @@ img {
   right: 0;
   bottom: 0;
   width: 65%;
+
 }
 .colour{
   background-color: #fdf2e9;
@@ -547,5 +549,5 @@ img.man-icons {
 .footer-icon {
   font-size: 1rem;
   color: #fff;
-  margin: 0 var(--mb-2);
+  margin: 17px;
 }

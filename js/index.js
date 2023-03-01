@@ -50,7 +50,7 @@ const showMenu = ( toggleId, navId ) => {
   const sr = ScrollReveal( {
     origin: "top",
     distance: "80px",
-    duration: 2000,
+    duration: 1500,
     reset: true,
   } );
   
@@ -72,7 +72,7 @@ const showMenu = ( toggleId, navId ) => {
   // sr.reveal(".skills-img", { delay: 60 });
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img", { interval: 10 } );
+  sr.reveal( ".project-img", { interval: 1 } );
   
 //   /*SCROLL CONTACT*/
 //   // sr.reveal(".contact-input", { interval: 200 });

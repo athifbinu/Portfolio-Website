@@ -47,10 +47,12 @@
       padding-bottom: 2.5rem;
       flex-direction: row;
       align-self: flex-end;
+      
     }
     .home-social-icon {
       margin-bottom: 0;
       margin-right: var(--mb-4);
+      
     }
     .home-img {
       width: 39%;
@@ -194,6 +196,8 @@
 
  /* contribution */
 
+ 
+
  @media screen and (max-width:768px) {
    .member{
     display: block;
@@ -206,7 +210,7 @@
    .member img{
     width: 170px;
     height: 170px;
-    margin-left: 2px;
+    margin-left: 15px;
    }
    .member-btn{
     width: 90px;
@@ -219,5 +223,6 @@
     opacity: 0.8;
     color: black;
    }
+    
  }
   
