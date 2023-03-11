@@ -74,7 +74,6 @@ const showMenu = ( toggleId, navId ) => {
 //   /*SCROLL projects*/
   sr.reveal( ".project-img", { interval: 1 } );
   
-//   /*SCROLL CONTACT*/
 //   // sr.reveal(".contact-input", { interval: 200 });
 
 // gitHub calender part
