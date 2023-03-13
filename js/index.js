@@ -72,9 +72,8 @@ const showMenu = ( toggleId, navId ) => {
   // sr.reveal(".skills-img", { delay: 60 });
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img", { interval: 1 } );
+  sr.reveal( ".project-img" );
   
-//   // sr.reveal(".contact-input", { interval: 200 });
 
 // gitHub calender part
   GitHubCalendar(".calendar", "athifbinu");
