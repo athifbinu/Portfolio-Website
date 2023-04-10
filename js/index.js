@@ -72,7 +72,7 @@ const showMenu = ( toggleId, navId ) => {
   // sr.reveal(".skills-img", { delay: 60 });
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img", {delay:400} );
+  sr.reveal( ".project-img", {delay:50} );
   
 
 // gitHub calender part
