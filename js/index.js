@@ -65,14 +65,10 @@ const showMenu = ( toggleId, navId ) => {
   sr.reveal( ".about-subtitle", { delay: 400 } );
   sr.reveal( ".about-text", { delay: 400 } );
   
-//   /*SCROLL SKILLS*/
-  // sr.reveal( ".skills-subtitle", {} );
-  // sr.reveal( ".skills-text", {} );
-  // sr.reveal( ".skills-data", { interval: 50 } );
-  // sr.reveal(".skills-img", { delay: 60 });
+
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img", {delay:50} );
+  sr.reveal( ".project-img", {delay:3} );
   
 
 // gitHub calender part
