@@ -137,9 +137,10 @@
   
   @media screen and (max-width: 380px){
     .homeImg{
-      border-radius: 50%; 
-      height: 250px;
-      width: 430px;
+      border-radius: 50%;
+      height: 175px;
+      margin-top: 90px;
+  
     }
     .home-img {
       right: 10%;
