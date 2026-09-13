@@ -4,13 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.6.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.2.0",
     "github-calendar": "^2.3.1",
+    "lucide-react": "^1.45.0",
+    "next": "^16.3.5",
+    "postcss": "^8.5.28",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "scss": "^0.2.4",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
     "vercel": "^19.1.2"
   }
 }
