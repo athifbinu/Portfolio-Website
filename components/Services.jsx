@@ -93,7 +93,7 @@ export default function Services() {
 
                 <div className="pt-8">
                   <a
-                    href="tel:+917594013460"
+                    href="tel:+918590925382"
                     className="flex items-center justify-between px-5 py-3 rounded-xl bg-white/5 hover:bg-cyan-500/10 border border-white/10 hover:border-cyan-500/30 text-white font-semibold text-sm transition-all group-hover:text-cyan-400"
                   >
                     <span className="flex items-center gap-2">

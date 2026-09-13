@@ -52,7 +52,7 @@ export default function Footer() {
               <Mail className="w-4 h-4" />
             </a>
             <a
-              href="tel:+917594013460"
+              href="tel:+918590925382"
               className="p-2.5 rounded-xl bg-slate-900 border border-white/10 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/40 transition-all"
               title="Phone"
             >
