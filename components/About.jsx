@@ -1,8 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { User, Copy, Check, Code, Sparkles } from "lucide-react";
 import GithubInsights from "./GithubInsights";
+import Image  from "next/image";
+
 
 export default function About() {
   const [copied, setCopied] = useState(false);
@@ -49,12 +51,17 @@ export default function About() {
             className="lg:col-span-5 flex justify-center"
           >
             <div className="relative w-full max-w-md rounded-3xl overflow-hidden border border-white/15 bg-[#0e1526] p-3 shadow-2xl group">
-              <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-square">
-                <img
-                  src="./img/about.jpeg"
-                  alt="Athif About"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+              <div className="relative w-full h-[260px] sm:h-[250px] md:h-[200px] lg:h-[420px] rounded-2xl overflow-hidden">
+                <div className="relative w-full h-full overflow-hidden rounded-2xl">
+                  <Image
+                    src="/images/aboutus.jpeg"
+                    alt="Athif - Full Stack MERN Developer"
+                    fill
+                    priority
+                
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080c14] via-transparent to-transparent opacity-60" />
                 <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-slate-900/80 backdrop-blur-md border border-white/10">
                   <p className="text-xs font-mono text-cyan-300 flex items-center gap-2">
